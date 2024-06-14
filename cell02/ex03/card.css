@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse; /* Evite bordas duplas */
+    width: 300px; /* Ocupe toda a largura disponível */
+    border: 3px solid #ccc; /* Adicione uma borda cinza fina */
+    height: 500px;
+    align-items: center;
+    
+}
+
+td {
+    padding: 10px; /* Adicione espaçamento entre as células */
+    text-align: center; /* Alinhe o texto no centro */
+    vertical-align: middle; /* Alinhe o conteúdo verticalmente no centro */
+}
+
+.foto-perfil img {
+    width: 300px; /* Ajuste o tamanho da foto */
+    height: 300px; /* Ajuste o tamanho da foto */
+    border-radius: 0%; /* Arredonde os cantos da foto */
+    
+
+}
+
+.redes-sociais {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociais li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes-sociais img {
+    width: 24px;
+    height: 24px;
+}
+
+.botao-contato {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0f1011; /* Cor de fundo azul */
+    color: #fff; /* Cor da letra branca */
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}

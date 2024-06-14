@@ -1,0 +1,13 @@
+body {
+    background-color: #ffffff; 
+    text-align: center;
+    font-family: sans-serif; 
+}
+
+#botao-mudar-cor {
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
